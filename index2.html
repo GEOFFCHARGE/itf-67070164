@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page version 2.0</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <div class="main">
+        <h1><a href="https://github.com/" id="user">My Phone Book</a></h1>
+        <div class="profile" id="profile">
+            <div class="notify"><h3>1</h3></div>
+        </div>
+        <div><label>Set the Username   </label><input id="name" placeholder="Enter Username"><button onclick="setName()">SET</button></div>
+        <div><label>Set the profile Image URL   </label><input id="pic" placeholder="Enter Image URL"><button onclick="setImg()">SET</button></div>
+        <h1>Phone Number List</h1>
+        <div>
+            <input id="pname" placeholder="Name">
+            <input id="phone" placeholder="Phone number">
+            <button onclick="add()" class="button101">ADD</button>
+            <button onclick="saveCSV()" class="button101">EXPORT</button>
+        </div>
+        <table id="table">
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Phone Number</th>
+            </tr>
+        </table>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>

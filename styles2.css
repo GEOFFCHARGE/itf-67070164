@@ -1,0 +1,54 @@
+.main{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 16px;
+}
+.profile {
+    background-image: url("https://i.imgflip.com/2/6w5edi.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 183px;
+    position: relative;
+    width: 183px;
+}
+#user:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+#user{
+    color: black;
+    text-decoration-line: none;
+}
+.notify{
+    align-items: center;
+    background-color: red;
+    border-radius: 50%;
+    bottom: 5%;
+    color: white;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    width: 30px;
+}
+table {
+    border-collapse: collapse;
+    font-family: arial, sans-serif;
+    width: 100%;
+}
+th {
+    border: 1px solid #dddddd;
+    background-color: #eeeeee;
+    padding: 8px;
+    text-align: left;
+}
+td {
+    border: 1px solid #eeeeee;
+    padding: 8px;
+    text-align: left;
+}
